@@ -35,12 +35,12 @@ const TechnologyStack = () => {
           <Card className="p-6 shadow-card border-primary/20 bg-gradient-to-br from-primary/10 to-primary/5 animate-fade-in" style={{animationDelay: "0.2s"}}>
             <CardHeader className="text-center pb-4">
               <Coins className="w-12 h-12 text-primary mx-auto mb-4" />
-              <CardTitle className="text-xl">Payment Rails</CardTitle>
+              <CardTitle className="text-xl">HTTP 402 Payments</CardTitle>
             </CardHeader>
             <CardContent>
               <ul className="text-muted-foreground text-sm space-y-2">
                 <li>• USDFC token payments</li>
-                <li>• Smart contract escrow</li>
+                <li>• HTTP 402 standard integration</li>
                 <li>• Automatic creator payouts</li>
                 <li>• Transparent fee structure</li>
               </ul>
@@ -50,14 +50,14 @@ const TechnologyStack = () => {
           <Card className="p-6 shadow-card border-accent/20 bg-gradient-to-br from-accent/10 to-accent/5 animate-fade-in" style={{animationDelay: "0.3s"}}>
             <CardHeader className="text-center pb-4">
               <Shield className="w-12 h-12 text-accent mx-auto mb-4" />
-              <CardTitle className="text-xl">NFT Access Control</CardTitle>
+              <CardTitle className="text-xl">Account Abstraction</CardTitle>
             </CardHeader>
             <CardContent>
               <ul className="text-muted-foreground text-sm space-y-2">
-                <li>• Time-limited access passes</li>
-                <li>• Transferable access rights</li>
-                <li>• Wallet-based authentication</li>
-                <li>• Proof of purchase verification</li>
+                <li>• Simplified user onboarding</li>
+                <li>• Gasless transactions</li>
+                <li>• Web3 accessibility</li>
+                <li>• Seamless crypto integration</li>
               </ul>
             </CardContent>
           </Card>
@@ -91,64 +91,106 @@ const TechnologyStack = () => {
               </ul>
             </CardContent>
           </Card>
-
-          <Card className="p-6 shadow-card border-primary/20 bg-gradient-to-br from-primary/10 to-primary/5 animate-fade-in" style={{animationDelay: "0.6s"}}>
-            <CardHeader className="text-center pb-4">
-              <Zap className="w-12 h-12 text-primary mx-auto mb-4" />
-              <CardTitle className="text-xl">MCP Server</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ul className="text-muted-foreground text-sm space-y-2">
-                <li>• SQL query interface (AlaSQL)</li>
-                <li>• In-memory data merging</li>
-                <li>• Multiple export formats</li>
-                <li>• Concurrent query support</li>
-              </ul>
-            </CardContent>
-          </Card>
         </div>
 
         {/* WordPress Plugin Showcase */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-          <div className="animate-fade-in">
-            <h3 className="text-3xl font-bold mb-6">WordPress Plugin</h3>
-            <p className="text-lg text-muted-foreground mb-6">
-              Our intuitive WordPress plugin makes it easy for content creators to start monetizing their data without any technical expertise.
+        <div className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-8 mb-16">
+          <div className="text-center mb-12">
+            <h3 className="text-4xl md:text-5xl font-bold mb-6">
+              WordPress Plugin - <span className="bg-gradient-network bg-clip-text text-transparent">Start Monetizing Today</span>
+            </h3>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+              Transform your WordPress site into a data monetization powerhouse with our one-click solution
             </p>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground text-xs">✓</span>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
+            <div className="animate-fade-in">
+              <div className="space-y-6">
+                <div className="flex items-center space-x-4">
+                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                    <span className="text-primary-foreground text-sm font-bold">1</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg">Install & Activate</h4>
+                    <p className="text-muted-foreground">Download and activate the plugin in seconds</p>
+                  </div>
                 </div>
-                <span>No-code configuration interface</span>
+                <div className="flex items-center space-x-4">
+                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                    <span className="text-primary-foreground text-sm font-bold">2</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg">Configure Settings</h4>
+                    <p className="text-muted-foreground">Set pricing and choose what data to monetize</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                    <span className="text-primary-foreground text-sm font-bold">3</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg">Start Earning</h4>
+                    <p className="text-muted-foreground">Watch revenue flow in as AI companies access your data</p>
+                  </div>
+                </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground text-xs">✓</span>
-                </div>
-                <span>Automated public/private data splitting</span>
+              
+              <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                <button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-4 px-8 rounded-lg transition-colors">
+                  Download Plugin
+                </button>
+                <button className="border border-primary text-primary hover:bg-primary/10 font-semibold py-4 px-8 rounded-lg transition-colors">
+                  View Documentation
+                </button>
               </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground text-xs">✓</span>
+            </div>
+            
+            <div className="animate-slide-in-right">
+              <div className="aspect-video bg-muted rounded-lg flex items-center justify-center border border-border">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="w-0 h-0 border-l-[12px] border-l-primary border-y-[8px] border-y-transparent ml-1"></div>
+                  </div>
+                  <h4 className="font-semibold mb-2">Installation & Setup Tutorial</h4>
+                  <p className="text-sm text-muted-foreground">Watch our step-by-step guide</p>
+                  <button className="mt-4 bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-2 rounded-lg text-sm transition-colors">
+                    Play Video
+                  </button>
                 </div>
-                <span>Real-time revenue tracking dashboard</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground text-xs">✓</span>
-                </div>
-                <span>Secure wallet integration</span>
               </div>
             </div>
           </div>
-          
-          <div className="animate-slide-in-right">
-            <img 
-              src={wordpressPlugin} 
-              alt="WordPress plugin dashboard showing data export and monetization settings"
-              className="w-full rounded-lg shadow-card border border-border"
-            />
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center p-4 bg-background/50 rounded-lg">
+              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mx-auto mb-3">
+                <span className="text-primary font-bold text-xl">0</span>
+              </div>
+              <h5 className="font-semibold mb-1">Code Required</h5>
+              <p className="text-sm text-muted-foreground">Pure drag-and-drop interface</p>
+            </div>
+            <div className="text-center p-4 bg-background/50 rounded-lg">
+              <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mx-auto mb-3">
+                <span className="text-accent font-bold text-xl">5</span>
+              </div>
+              <h5 className="font-semibold mb-1">Minute Setup</h5>
+              <p className="text-sm text-muted-foreground">From install to earning</p>
+            </div>
+            <div className="text-center p-4 bg-background/50 rounded-lg">
+              <div className="w-12 h-12 bg-network/20 rounded-lg flex items-center justify-center mx-auto mb-3">
+                <span className="text-network font-bold text-xl">∞</span>
+              </div>
+              <h5 className="font-semibold mb-1">Revenue Streams</h5>
+              <p className="text-sm text-muted-foreground">Multiple data monetization options</p>
+            </div>
+            <div className="text-center p-4 bg-background/50 rounded-lg">
+              <div className="w-12 h-12 bg-data/20 rounded-lg flex items-center justify-center mx-auto mb-3">
+                <span className="text-data font-bold text-xl">24/7</span>
+              </div>
+              <h5 className="font-semibold mb-1">Passive Income</h5>
+              <p className="text-sm text-muted-foreground">Earn while you sleep</p>
+            </div>
           </div>
         </div>
 
@@ -165,8 +207,8 @@ const TechnologyStack = () => {
               <p className="text-sm text-muted-foreground">Decentralized storage and PDP verification</p>
             </div>
             <div className="p-4 rounded-lg bg-muted/50 animate-fade-in" style={{animationDelay: "0.3s"}}>
-              <h4 className="font-semibold text-network mb-2">On-chain Registry</h4>
-              <p className="text-sm text-muted-foreground">Smart contracts and NFT access control</p>
+              <h4 className="font-semibold text-network mb-2">Payment Infrastructure</h4>
+              <p className="text-sm text-muted-foreground">HTTP 402 standard with USDFC tokens</p>
             </div>
             <div className="p-4 rounded-lg bg-muted/50 animate-fade-in" style={{animationDelay: "0.4s"}}>
               <h4 className="font-semibold text-data mb-2">Data Consumers</h4>
