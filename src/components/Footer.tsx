@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg animate-glow"></div>
               <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                FiloDataBroker
+                FilDataBroker
               </span>
             </div>
             <p className="text-muted-foreground text-sm">
@@ -56,7 +56,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-muted-foreground">
-            © 2024 FiloDataBroker. Built on Filecoin blockchain technology.
+            © 2024 FilDataBroker. Built on Filecoin Onchain Cloud technology.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground">
             <span className="hover:text-foreground transition-colors cursor-pointer">Privacy Policy</span>

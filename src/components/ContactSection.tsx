@@ -92,7 +92,7 @@ const ContactSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Get Started with <span className="bg-gradient-primary bg-clip-text text-transparent">FiloDataBroker</span>
+            Get Started with <span className="bg-gradient-primary bg-clip-text text-transparent">FilDataBroker</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Ready to monetize your content or access licensed datasets? Contact us to learn more or request early access.
@@ -194,12 +194,12 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  We're here to help you get started with FiloDataBroker. Whether you're a content creator looking to monetize your data or an AI company seeking licensed datasets, we'd love to hear from you.
+                  We're here to help you get started with FilDataBroker. Whether you're a content creator looking to monetize your data or an AI company seeking licensed datasets, we'd love to hear from you.
                 </p>
                 <div className="space-y-2">
                   <p className="flex items-center">
                     <span className="font-semibold w-20">Email:</span>
-                    <span className="text-primary">contact@filodatabroker.com</span>
+                    <span className="text-primary">fildb@majus.org</span>
                   </p>
                   <p className="flex items-center">
                     <span className="font-semibold w-20">Status:</span>

@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Database, Coins, Shield, Zap, Globe, Code2 } from "lucide-react";
+import { Database, Coins, Shield, Zap, Globe, Code2, Network } from "lucide-react";
 import wordpressPlugin from "@/assets/wordpress-plugin.jpg";
 
 const TechnologyStack = () => {
@@ -88,6 +88,21 @@ const TechnologyStack = () => {
                 <li>• Standardized data format</li>
                 <li>• Automated discovery</li>
                 <li>• Schema validation</li>
+              </ul>
+            </CardContent>
+          </Card>
+
+          <Card className="p-6 shadow-card border-orange-500/20 bg-gradient-to-br from-orange-500/10 to-orange-500/5 animate-fade-in" style={{animationDelay: "0.6s"}}>
+            <CardHeader className="text-center pb-4">
+              <Network className="w-12 h-12 text-orange-500 mx-auto mb-4" />
+              <CardTitle className="text-xl">IPFS Protocol</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <ul className="text-muted-foreground text-sm space-y-2">
+                <li>• Distributed content addressing</li>
+                <li>• Peer-to-peer data sharing</li>
+                <li>• Immutable content hashing</li>
+                <li>• Decentralized file system</li>
               </ul>
             </CardContent>
           </Card>
@@ -181,15 +196,15 @@ const TechnologyStack = () => {
               <div className="w-12 h-12 bg-network/20 rounded-lg flex items-center justify-center mx-auto mb-3">
                 <span className="text-network font-bold text-xl">∞</span>
               </div>
-              <h5 className="font-semibold mb-1">Revenue Streams</h5>
-              <p className="text-sm text-muted-foreground">Multiple data monetization options</p>
+              <h5 className="font-semibold mb-1">Revenue Streams <span className="text-xs bg-yellow-500/20 text-yellow-600 px-1 py-0.5 rounded ml-1">TODO</span></h5>
+              <p className="text-sm text-muted-foreground">Multiple data monetization options (coming soon)</p>
             </div>
             <div className="text-center p-4 bg-background/50 rounded-lg">
               <div className="w-12 h-12 bg-data/20 rounded-lg flex items-center justify-center mx-auto mb-3">
                 <span className="text-data font-bold text-xl">24/7</span>
               </div>
-              <h5 className="font-semibold mb-1">Passive Income</h5>
-              <p className="text-sm text-muted-foreground">Earn while you sleep</p>
+              <h5 className="font-semibold mb-1">Passive Income <span className="text-xs bg-yellow-500/20 text-yellow-600 px-1 py-0.5 rounded ml-1">TODO</span></h5>
+              <p className="text-sm text-muted-foreground">Earn while you sleep (feature in development)</p>
             </div>
           </div>
         </div>
