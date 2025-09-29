@@ -4,11 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a React landing page for FilDB, built with Vite, TypeScript, React, shadcn/ui, and Tailwind CSS. The project is deployed to GitHub Pages and uses the Lovable development platform.
+This is a React landing page for FiloDataBroker, built with Vite, TypeScript, React, shadcn/ui, and Tailwind CSS. The project is deployed to GitHub Pages and uses the Lovable development platform.
 
 ## Development Commands
 
 ### Core Commands
+
 - `npm run dev` - Start development server on port 8080
 - `npm run build` - Build for production
 - `npm run build:dev` - Build in development mode
@@ -16,17 +17,20 @@ This is a React landing page for FilDB, built with Vite, TypeScript, React, shad
 - `npm run preview` - Preview production build locally
 
 ### Installation
+
 - `npm i` - Install dependencies
 
 ## Architecture
 
 ### Project Structure
+
 - **Single Page Application**: Main page is `src/pages/Index.tsx` with routing via React Router
 - **Component-based**: Landing page built from modular components in `src/components/`
 - **shadcn/ui Integration**: UI components in `src/components/ui/` following shadcn/ui patterns
 - **Asset Management**: Images stored in `src/assets/`
 
 ### Key Components
+
 - `Navigation.tsx` - Site navigation
 - `HeroSection.tsx` - Main hero section
 - `ProblemSolution.tsx` - Problem/solution content
@@ -36,6 +40,7 @@ This is a React landing page for FilDB, built with Vite, TypeScript, React, shad
 - `Footer.tsx` - Site footer
 
 ### Tech Stack Configuration
+
 - **Vite**: Build tool with React SWC plugin
 - **TypeScript**: Strict type checking enabled
 - **Tailwind CSS**: Utility-first CSS framework
@@ -43,6 +48,7 @@ This is a React landing page for FilDB, built with Vite, TypeScript, React, shad
 - **Path Aliases**: `@/` maps to `src/` directory
 
 ### Styling
+
 - Uses Tailwind CSS with custom configuration in `tailwind.config.ts`
 - shadcn/ui component theming system
 - Responsive design patterns

@@ -27,13 +27,18 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in">
+          <div className="flex items-center justify-center mb-4">
+            <span className="bg-gradient-to-r from-primary to-accent text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+              BETA
+            </span>
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Monetize Your Content for the
             <span className="bg-gradient-primary bg-clip-text text-transparent"> AI Era</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            FiloDataBroker empowers content creators to directly monetize their data for LLM training 
+            FiloDataBroker empowers content creators to directly monetize their data for LLM training
             and AI applications through decentralized blockchain technology.
           </p>
           
@@ -71,7 +76,7 @@ const HeroSection = () => {
             <div className="p-6 rounded-lg bg-card/50 backdrop-blur-sm border border-border shadow-card animate-fade-in" style={{animationDelay: "0.6s"}}>
               <div className="w-12 h-12 bg-gradient-data rounded-lg mb-4 mx-auto animate-glow"></div>
               <h3 className="text-lg font-semibold mb-2">Blockchain Powered</h3>
-              <p className="text-muted-foreground">Built on Filecoin with NFT access passes and transparent payment rails</p>
+              <p className="text-muted-foreground">Built on Filecoin with HTTP 402 access control and transparent payment rails</p>
             </div>
           </div>
         </div>

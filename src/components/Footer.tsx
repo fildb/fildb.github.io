@@ -25,7 +25,7 @@ const Footer = () => {
               <li><a href="#how-it-works" className="hover:text-foreground transition-colors">How it Works</a></li>
               <li><a href="#features" className="hover:text-foreground transition-colors">Features</a></li>
               <li><a href="#technology" className="hover:text-foreground transition-colors">Technology</a></li>
-              <li><span className="hover:text-foreground transition-colors cursor-pointer">WordPress Plugin</span></li>
+              <li><a href="#install" className="hover:text-foreground transition-colors">WordPress Plugin</a></li>
             </ul>
           </div>
 
@@ -33,10 +33,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Technology</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><span className="hover:text-foreground transition-colors cursor-pointer">Filecoin Storage</span></li>
-              <li><span className="hover:text-foreground transition-colors cursor-pointer">NFT Access Control</span></li>
-              <li><span className="hover:text-foreground transition-colors cursor-pointer">USDFC Payments</span></li>
-              <li><span className="hover:text-foreground transition-colors cursor-pointer">MCP Server</span></li>
+              <li><a href="https://filbuilders.notion.site/Filecoin-Onchain-Cloud-CheatSheet-24798ea55791806bbc09e124837436c0" target="_blank" className="hover:text-foreground transition-colors cursor-pointer">Filecoin Onchain Cloud</a></li>
+              <li><a href="https://docs.secured.finance/usdfc-stablecoin/getting-started" target="_blank" className="hover:text-foreground transition-colors cursor-pointer">USDFC Payments</a></li>
+              {/* <li><span className="hover:text-foreground transition-colors cursor-pointer">MCP Server</span></li> */}
             </ul>
           </div>
 
@@ -45,9 +44,9 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#contact" className="hover:text-foreground transition-colors">Contact</a></li>
-              <li><span className="hover:text-foreground transition-colors cursor-pointer">Documentation</span></li>
-              <li><span className="hover:text-foreground transition-colors cursor-pointer">Beta Program</span></li>
-              <li><span className="hover:text-foreground transition-colors cursor-pointer">Support</span></li>
+              {/* <li><span className="hover:text-foreground transition-colors cursor-pointer">Documentation</span></li> */}
+              {/* <li><span className="hover:text-foreground transition-colors cursor-pointer">Beta Program</span></li> */}
+              {/* <li><span className="hover:text-foreground transition-colors cursor-pointer">Support</span></li> */}
             </ul>
           </div>
         </div>
@@ -56,7 +55,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-muted-foreground">
-            © 2024 FiloDataBroker. Built on Filecoin blockchain technology.
+            © 2024 FiloDataBroker. Built on Filecoin Onchain Cloud technology.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground">
             <span className="hover:text-foreground transition-colors cursor-pointer">Privacy Policy</span>

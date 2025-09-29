@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Upload, DollarSign, Download, Settings, Shield, Coins } from "lucide-react";
-import dataFlow from "@/assets/data-flow.jpg";
 
 const HowItWorks = () => {
   return (
@@ -47,11 +46,11 @@ const HowItWorks = () => {
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-bold">3</div>
               <CardHeader className="text-center pb-4">
                 <DollarSign className="w-12 h-12 text-filecoin mx-auto mb-4" />
-                <CardTitle className="text-xl">Earn Revenue</CardTitle>
+                <CardTitle className="text-xl">Earn Revenue <span className="text-xs bg-yellow-500/20 text-yellow-600 px-2 py-1 rounded ml-2">TODO</span></CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-center">
-                  Set your pricing and start earning USDFC tokens automatically when AI companies access your licensed content through our platform.
+                  Set your pricing and start earning USDFC tokens automatically when AI companies access your licensed content through our platform (monetization features coming soon).
                 </p>
               </CardContent>
             </Card>
@@ -61,9 +60,9 @@ const HowItWorks = () => {
         {/* Visual Separator */}
         <div className="relative mb-20">
           <img 
-            src={dataFlow} 
+            src="/diagram.png" 
             alt="Data flow visualization showing monetization process"
-            className="w-full max-w-2xl mx-auto rounded-lg shadow-card opacity-80"
+            className="w-full -max-w-2xl mx-auto rounded-lg shadow-card opacity-80"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-accent/20 rounded-lg"></div>
         </div>
@@ -93,7 +92,7 @@ const HowItWorks = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-center">
-                  Buy NFT access passes with USDFC tokens. Get instant access to both public datasets and premium private content.
+                  Pay with USDFC tokens using HTTP 402 protocol. Get instant access to both public datasets and premium private content.
                 </p>
               </CardContent>
             </Card>
@@ -106,7 +105,7 @@ const HowItWorks = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-center">
-                  Use our MCP server to query datasets with SQL, export to common formats, and integrate directly into your AI pipelines.
+                  Access datasets through our API, export to common formats, and integrate directly into your AI pipelines.
                 </p>
               </CardContent>
             </Card>

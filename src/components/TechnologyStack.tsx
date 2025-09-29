@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Database, Coins, Shield, Zap, Globe, Code2 } from "lucide-react";
-import wordpressPlugin from "@/assets/wordpress-plugin.jpg";
+import { Database, Coins, Shield, Zap, Globe, Code2, Network } from "lucide-react";
 
 const TechnologyStack = () => {
   return (
@@ -91,10 +90,25 @@ const TechnologyStack = () => {
               </ul>
             </CardContent>
           </Card>
+
+          <Card className="p-6 shadow-card border-orange-500/20 bg-gradient-to-br from-orange-500/10 to-orange-500/5 animate-fade-in" style={{animationDelay: "0.6s"}}>
+            <CardHeader className="text-center pb-4">
+              <Network className="w-12 h-12 text-orange-500 mx-auto mb-4" />
+              <CardTitle className="text-xl">IPFS Protocol</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <ul className="text-muted-foreground text-sm space-y-2">
+                <li>• Distributed content addressing</li>
+                <li>• Peer-to-peer data sharing</li>
+                <li>• Immutable content hashing</li>
+                <li>• Decentralized file system</li>
+              </ul>
+            </CardContent>
+          </Card>
         </div>
 
         {/* WordPress Plugin Showcase */}
-        <div className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-8 mb-16">
+        <div id="install" className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-8 mb-16">
           <div className="text-center mb-12">
             <h3 className="text-4xl md:text-5xl font-bold mb-6">
               WordPress Plugin - <span className="bg-gradient-network bg-clip-text text-transparent">Start Monetizing Today</span>
@@ -137,27 +151,24 @@ const TechnologyStack = () => {
               </div>
               
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-4 px-8 rounded-lg transition-colors">
+                <a href="https://github.com/fildb/wordpress-plugin/releases/latest/download/filo-data-broker.zip" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-4 px-8 rounded-lg transition-colors">
                   Download Plugin
-                </button>
-                <button className="border border-primary text-primary hover:bg-primary/10 font-semibold py-4 px-8 rounded-lg transition-colors">
+                </a>
+                {/* <button className="border border-primary text-primary hover:bg-primary/10 font-semibold py-4 px-8 rounded-lg transition-colors">
                   View Documentation
-                </button>
+                </button> */}
               </div>
             </div>
             
             <div className="animate-slide-in-right">
-              <div className="aspect-video bg-muted rounded-lg flex items-center justify-center border border-border">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <div className="w-0 h-0 border-l-[12px] border-l-primary border-y-[8px] border-y-transparent ml-1"></div>
-                  </div>
-                  <h4 className="font-semibold mb-2">Installation & Setup Tutorial</h4>
-                  <p className="text-sm text-muted-foreground">Watch our step-by-step guide</p>
-                  <button className="mt-4 bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-2 rounded-lg text-sm transition-colors">
-                    Play Video
-                  </button>
-                </div>
+              <div className="aspect-video bg-muted rounded-lg overflow-hidden border border-border">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/Rq-aPSLYfzo"
+                  title="FiloDataBroker WordPress Plugin - Installation & Setup Tutorial"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
           </div>
@@ -181,15 +192,15 @@ const TechnologyStack = () => {
               <div className="w-12 h-12 bg-network/20 rounded-lg flex items-center justify-center mx-auto mb-3">
                 <span className="text-network font-bold text-xl">∞</span>
               </div>
-              <h5 className="font-semibold mb-1">Revenue Streams</h5>
-              <p className="text-sm text-muted-foreground">Multiple data monetization options</p>
+              <h5 className="font-semibold mb-1">Revenue Streams <span className="text-xs bg-yellow-500/20 text-yellow-600 px-1 py-0.5 rounded ml-1">TODO</span></h5>
+              <p className="text-sm text-muted-foreground">Multiple data monetization options (coming soon)</p>
             </div>
             <div className="text-center p-4 bg-background/50 rounded-lg">
               <div className="w-12 h-12 bg-data/20 rounded-lg flex items-center justify-center mx-auto mb-3">
                 <span className="text-data font-bold text-xl">24/7</span>
               </div>
-              <h5 className="font-semibold mb-1">Passive Income</h5>
-              <p className="text-sm text-muted-foreground">Earn while you sleep</p>
+              <h5 className="font-semibold mb-1">Passive Income <span className="text-xs bg-yellow-500/20 text-yellow-600 px-1 py-0.5 rounded ml-1">TODO</span></h5>
+              <p className="text-sm text-muted-foreground">Earn while you sleep (feature in development)</p>
             </div>
           </div>
         </div>

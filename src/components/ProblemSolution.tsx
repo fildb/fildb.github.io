@@ -63,15 +63,15 @@ const ProblemSolution = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card className="p-6 shadow-card bg-gradient-to-br from-primary/10 to-primary/5 border-primary/20 animate-fade-in" style={{animationDelay: "0.1s"}}>
             <CardHeader className="text-center pb-4">
               <DollarSign className="w-12 h-12 text-primary mx-auto mb-4" />
-              <CardTitle className="text-lg">Direct Monetization</CardTitle>
+              <CardTitle className="text-lg">Direct Monetization <span className="text-xs bg-yellow-500/20 text-yellow-600 px-2 py-1 rounded ml-2">TODO</span></CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-center text-sm">
-                Earn revenue from your content through transparent blockchain payments
+                Earn revenue from your content through transparent blockchain payments (feature in development)
               </p>
             </CardContent>
           </Card>
@@ -83,24 +83,12 @@ const ProblemSolution = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-center text-sm">
-                Choose what data to share, set pricing, and control access with NFT passes
+                Choose what data to share, set pricing, and control access with HTTP 402 protocol
               </p>
             </CardContent>
           </Card>
 
-          <Card className="p-6 shadow-card bg-gradient-to-br from-network/10 to-network/5 border-network/20 animate-fade-in" style={{animationDelay: "0.3s"}}>
-            <CardHeader className="text-center pb-4">
-              <div className="w-12 h-12 bg-gradient-network rounded-lg mx-auto mb-4 animate-glow"></div>
-              <CardTitle className="text-lg">Blockchain Security</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground text-center text-sm">
-                Immutable proof of licensing and transparent payment distribution
-              </p>
-            </CardContent>
-          </Card>
-
-          <Card className="p-6 shadow-card bg-gradient-to-br from-data/10 to-data/5 border-data/20 animate-fade-in" style={{animationDelay: "0.4s"}}>
+<Card className="p-6 shadow-card bg-gradient-to-br from-data/10 to-data/5 border-data/20 animate-fade-in" style={{animationDelay: "0.4s"}}>
             <CardHeader className="text-center pb-4">
               <Zap className="w-12 h-12 text-data mx-auto mb-4" />
               <CardTitle className="text-lg">Easy Integration</CardTitle>
