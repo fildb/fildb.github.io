@@ -62,19 +62,19 @@ const HeroSection = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <div className="p-6 rounded-lg bg-card/50 backdrop-blur-sm border border-border shadow-card animate-fade-in" style={{animationDelay: "0.2s"}}>
-              <div className="w-12 h-12 bg-gradient-primary rounded-lg mb-4 mx-auto animate-glow"></div>
+              <img src="/wordpress.png" alt="WordPress" className="w-12 h-12 mb-4 mx-auto" />
               <h3 className="text-lg font-semibold mb-2">For Content Creators</h3>
               <p className="text-muted-foreground">Turn your WordPress content into a revenue stream with our easy-to-use plugin</p>
             </div>
-            
+
             <div className="p-6 rounded-lg bg-card/50 backdrop-blur-sm border border-border shadow-card animate-fade-in" style={{animationDelay: "0.4s"}}>
-              <div className="w-12 h-12 bg-gradient-network rounded-lg mb-4 mx-auto animate-glow"></div>
+              <img src="/openai.png" alt="AI Companies" className="w-12 h-12 mb-4 mx-auto" />
               <h3 className="text-lg font-semibold mb-2">For AI Companies</h3>
               <p className="text-muted-foreground">Access high-quality, licensed datasets through our decentralized marketplace</p>
             </div>
-            
+
             <div className="p-6 rounded-lg bg-card/50 backdrop-blur-sm border border-border shadow-card animate-fade-in" style={{animationDelay: "0.6s"}}>
-              <div className="w-12 h-12 bg-gradient-data rounded-lg mb-4 mx-auto animate-glow"></div>
+              <img src="/filecoin.png" alt="Filecoin Blockchain" className="w-12 h-12 mb-4 mx-auto" />
               <h3 className="text-lg font-semibold mb-2">Blockchain Powered</h3>
               <p className="text-muted-foreground">Built on Filecoin with HTTP 402 access control and transparent payment rails</p>
             </div>

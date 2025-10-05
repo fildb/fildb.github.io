@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg animate-glow"></div>
+              <img src="/logo1-black.png" alt="FiloDataBroker Logo" className="w-8 h-8" />
               <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
                 FiloDataBroker
               </span>

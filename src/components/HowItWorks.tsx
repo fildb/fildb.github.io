@@ -45,7 +45,7 @@ const HowItWorks = () => {
             <Card className="relative p-6 shadow-card border-primary/20 animate-fade-in" style={{animationDelay: "0.3s"}}>
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-bold">3</div>
               <CardHeader className="text-center pb-4">
-                <DollarSign className="w-12 h-12 text-filecoin mx-auto mb-4" />
+                <img src="/usdfc.png" alt="USDFC Token" className="w-12 h-12 mx-auto mb-4" />
                 <CardTitle className="text-xl">Earn Revenue <span className="text-xs bg-yellow-500/20 text-yellow-600 px-2 py-1 rounded ml-2">TODO</span></CardTitle>
               </CardHeader>
               <CardContent>
